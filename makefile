@@ -5,13 +5,11 @@
 
 all:
 	@echo "Problema de las N-Reinas"
-	g++ -Wall -o nreinas nreinas.cxx
+	g++ -Wall -o nreinas.o nreinas.cxx
 run:
-	./nreinas
+	./nreinas.o
 clear:
-	rm nreinas
-
-
+	rm nreinas.o
 
 # vim:ft=make
 #
